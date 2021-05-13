@@ -40,7 +40,13 @@
       <dependency>
           <groupId>org.springframework.cloud</groupId>
           <artifactId>spring-cloud-starter-eureka-server</artifactId>
-          <version>1.4.7.RELEASE</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
+      <dependency>
+          <groupId>com.amazonaws</groupId>
+          <artifactId>aws-java-sdk</artifactId>
+          <version>1.11.18</version>
       </dependency>
 
       <!--启动tomcat失败，java9+的JAXB默认不加载-->
@@ -65,13 +71,6 @@
           <version>1.1.1</version>
       </dependency>
 
-      <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-      <dependency>
-          <groupId>org.projectlombok</groupId>
-          <artifactId>lombok</artifactId>
-          <version>1.18.12</version>
-          <scope>provided</scope>
-      </dependency>
 
   </dependencies>
 
