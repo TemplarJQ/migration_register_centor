@@ -125,4 +125,14 @@
       </plugins>
     </pluginManagement>
   </build>
+
+    <!-- 使用aliyun maven -->
+    <repositories>
+        <repository>
+            <id>aliyun</id>
+            <name>aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
+
 </project>
