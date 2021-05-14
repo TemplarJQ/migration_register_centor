@@ -1,2 +1,0 @@
-# migration_register_centor
-毕设服务迁移系统注册中心
